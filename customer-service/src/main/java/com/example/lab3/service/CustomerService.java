@@ -3,6 +3,7 @@ package com.example.lab3.service;
 import com.example.lab3.dao.CustomerDao;
 import com.example.lab3.models.Customer;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cache.annotation.CacheEvict;
 import org.springframework.cache.annotation.CachePut;
 import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Service;
@@ -24,6 +25,7 @@ public class CustomerService {
         return customerDao.findById(id);
     }
 
+    @CacheEvict(value ="Customer", allEntries = true)
     @CachePut(value="Customer", key="#p0")
     public Customer save(Customer customer, String name) {
         return customerDao.save(customer);

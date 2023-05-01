@@ -6,6 +6,7 @@ import com.example.lab3.dto.CustomerDto;
 import com.example.lab3.dto.NewCreditCardDto;
 import com.example.lab3.models.CreditCard;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cache.annotation.CacheEvict;
 import org.springframework.cache.annotation.CachePut;
 import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Service;
@@ -31,6 +32,7 @@ public class CreditCardService {
         return creditCardDao.findById(id);
     }
 
+    @CacheEvict(value ="CreditCard", allEntries = true)
     @CachePut(value="CreditCard", key="#card")
     public CreditCard save(NewCreditCardDto newCreditCard, String card) {
         CreditCard updatedCreditCard = createCreditCard(newCreditCard, customerClient.findById(newCreditCard.getCustomer_id()));

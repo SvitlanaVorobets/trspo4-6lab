@@ -4,6 +4,7 @@ import com.example.lab3.dao.AccountDao;
 import com.example.lab3.models.Account;
 import com.example.lab3.models.CreditCard;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cache.annotation.CacheEvict;
 import org.springframework.cache.annotation.CachePut;
 import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Service;
@@ -31,6 +32,7 @@ public class AccountService {
         return accountDao.findByCardId(id);
     }
 
+    @CacheEvict(value ="Account", allEntries = true)
     @CachePut(value="Account", key="#card")
     public Account save(Account account, String card) {
         card += " account";
