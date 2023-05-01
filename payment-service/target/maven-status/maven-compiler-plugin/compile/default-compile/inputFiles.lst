@@ -1,0 +1,12 @@
+C:\microservices-minikube\payment-service\src\main\java\com\example\lab3\models\Payment.java
+C:\microservices-minikube\payment-service\src\main\java\com\example\lab3\dao\PaymentDao.java
+C:\microservices-minikube\payment-service\src\main\java\com\example\lab3\models\CreditCard.java
+C:\microservices-minikube\payment-service\src\main\java\com\example\lab3\models\Account.java
+C:\microservices-minikube\payment-service\src\main\java\com\example\lab3\client\CreditCardClient.java
+C:\microservices-minikube\payment-service\src\main\java\com\example\lab3\contollers\PaymentController.java
+C:\microservices-minikube\payment-service\src\main\java\com\example\lab3\Lab3ApplicationPayments.java
+C:\microservices-minikube\payment-service\src\main\java\com\example\lab3\client\AccountClient.java
+C:\microservices-minikube\payment-service\src\main\java\com\example\lab3\client\RestTemplateClient.java
+C:\microservices-minikube\payment-service\src\main\java\com\example\lab3\service\PaymentService.java
+C:\microservices-minikube\payment-service\src\main\java\com\example\lab3\dto\NewPaymentDto.java
+C:\microservices-minikube\payment-service\src\main\java\com\example\lab3\security\SecurityConfiguration.java

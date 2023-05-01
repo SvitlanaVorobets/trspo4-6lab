@@ -1,0 +1,15 @@
+C:\microservices-minikube\credit-account-service\src\main\java\com\example\lab3\dto\NewCreditCardDto.java
+C:\microservices-minikube\credit-account-service\src\main\java\com\example\lab3\models\Account.java
+C:\microservices-minikube\credit-account-service\src\main\java\com\example\lab3\security\SecurityConfiguration.java
+C:\microservices-minikube\credit-account-service\src\main\java\com\example\lab3\contollers\CreditCardController.java
+C:\microservices-minikube\credit-account-service\src\main\java\com\example\lab3\client\CustomerClient.java
+C:\microservices-minikube\credit-account-service\src\main\java\com\example\lab3\dao\CreditCardDao.java
+C:\microservices-minikube\credit-account-service\src\main\java\com\example\lab3\dto\CustomerDto.java
+C:\microservices-minikube\credit-account-service\src\main\java\com\example\lab3\service\CreditCardService.java
+C:\microservices-minikube\credit-account-service\src\main\java\com\example\lab3\dao\AccountDao.java
+C:\microservices-minikube\credit-account-service\src\main\java\com\example\lab3\models\CreditCard.java
+C:\microservices-minikube\credit-account-service\src\main\java\com\example\lab3\client\RestTemplateClient.java
+C:\microservices-minikube\credit-account-service\src\main\java\com\example\lab3\service\AccountService.java
+C:\microservices-minikube\credit-account-service\src\main\java\com\example\lab3\models\Payment.java
+C:\microservices-minikube\credit-account-service\src\main\java\com\example\lab3\Lab3ApplicationCredit.java
+C:\microservices-minikube\credit-account-service\src\main\java\com\example\lab3\contollers\AccountController.java
